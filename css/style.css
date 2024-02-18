@@ -1,0 +1,188 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto, sans-serif
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background-color: rgb(238, 239, 241);
+    padding-top: 56px;
+    min-height: 700px;
+    padding-bottom: 146px;
+}
+
+.container {
+    max-width: 1106px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 162px;
+}
+
+.logo {
+    width: 96px;
+    height: 60px;
+}
+
+.header__logo {}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 42px;
+}
+
+.nav__item {}
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 10%;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    color: rgb(52, 84, 122);
+}
+
+.hero__content {
+    display: flex;
+    padding-bottom: 148px;
+}
+
+.hero__img-wrap {
+    width: 50%;
+    text-align: center;
+}
+
+.hero__img {
+    width: 360px;
+}
+
+.hero__desc {
+    max-width: 540px
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 164%;
+    color: #000;
+}
+
+.hero__title {
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+    text-align: center;
+}
+
+._hero__subtitle {
+    text-align: left;
+    margin-bottom: 68px;
+}
+
+.btn__wrap {
+    margin-bottom: ;
+}
+
+.btn {
+    background: #34547a;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    padding: 25px 40px;
+    text-transform: uppercase;
+}
+
+.about {
+    padding-top: 119px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.about__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.subtitle {}
+
+.achievements {}
+
+.achievements__list {}
+
+.achievements__items {}
+
+.achievment {}
+
+.achivments__icon {}
+
+.achievement__desc {}
+
+.achievment__count {}
+
+.achievment__text {}
